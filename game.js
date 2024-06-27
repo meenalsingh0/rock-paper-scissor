@@ -13,6 +13,8 @@ const resetGame = () => {
     msg.style.backgroundColor = "#2E86AB";
     userScorePara.innerText = "0";
     compScorePara.innerText = "0";
+     userScore = 0;
+     compScore = 0;
 }
 
 resetBtn.addEventListener("click" , resetGame);
